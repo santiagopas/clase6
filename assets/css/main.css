@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-block-size: 100vh;
+}
+
+h2 {
+  letter-spacing: 3px
+}
+
+div {
+  height: 15vh;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #e6e6e6;
+  padding-block-end: 20px;
+  padding-block-start: 20px;
+}
+
+.title {
+  text-transform: uppercase;
+  background-color: #C4C4C4;
+  color: #005677;
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 1rem;
+  line-height: 29.64px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Stitle {
+  text-transform: uppercase;
+  background-color: #C4C4C4;
+  color: #005677;
+  padding: 16px;
+}
+
+span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.datos {
+  margin-left: 2%;
+}
+
+
+.estudiosYexp {
+  list-style-type: none;
+  margin-left: 5%;
+}
+
+ol {
+  list-style: none;
+  margin-left: 10px;
+}
+
+footer {
+  text-transform: uppercase;
+  background-color: #005677;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.socialLink {
+  margin: 10px;
+}
+
+.sec1 {
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+}
+.sec2 {
+  margin-block-start: 20px;
+  margin-block-end: 10%;
+}
